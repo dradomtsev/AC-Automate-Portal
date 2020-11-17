@@ -28,7 +28,7 @@ namespace AC_Automate_Portal
             services.AddControllers();
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "ClientApp";
+                configuration.RootPath = "clientapp/dist";
             });
         }
 
@@ -51,15 +51,15 @@ namespace AC_Automate_Portal
 
             app.UseSpa(spa =>
             {
-                if (env.IsDevelopment())
-                    spa.Options.SourcePath = "ClientApp";
-                else
-                    spa.Options.SourcePath = "dist";
+                //if (env.IsDevelopment())
+                //    spa.Options.SourcePath = "clientapp";
+                //else
+                //    spa.Options.SourcePath = "dist";
 
-                if (env.IsDevelopment())
-                {
-                    spa.UseVueCli(npmScript: "serve");
-                }
+                //if (env.IsDevelopment())
+                //{
+                //    spa.UseVueCli(npmScript: "serve");
+                //}
 
             });
         }
