@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-Automate-Portal", "AC-Automate-Portal\AC-Automate-Portal.csproj", "{1985B27D-21A5-4EB2-8787-E63FAB192F34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1985B27D-21A5-4EB2-8787-E63FAB192F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1985B27D-21A5-4EB2-8787-E63FAB192F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1985B27D-21A5-4EB2-8787-E63FAB192F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1985B27D-21A5-4EB2-8787-E63FAB192F34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B799CB3B-FB03-42B9-B40A-7A85B1AEA1CB}
+	EndGlobalSection
+EndGlobal
